@@ -1,0 +1,6 @@
+button:hover,
+a:hover,
+button:hover a {
+    opacity: 0.9;
+    color: rgb(255, 255, 255) !important;
+}

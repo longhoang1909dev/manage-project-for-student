@@ -1,0 +1,152 @@
+/* Responsive Mobile */
+/* col-sm : 576px
+col-md : 768px
+col-lg : 992px
+col-xl : 1200px */
+@media (min-device-width : 425px) and (max-device-width : 769px) {
+    .navbar>div {
+        width: unset;
+        margin: unset;
+        padding: unset;
+
+    }
+
+    .home .container .about {
+        flex-wrap: wrap;
+    }
+
+    .home .about>div {
+        max-width: 350px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .home .event div {
+        margin-bottom: 15px;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    #sidebar_mobile {
+        display: block !important;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .infoTeacher .row {
+        margin: unset !important;
+        padding: unset !important;
+        --bs-gutter-x: 0rem !important;
+        margin-top: 25px !important;
+    }
+
+    .infoTeacher .row .text-center {
+        margin: unset !important;
+        padding: unset !important;
+        --bs-gutter-x: 0rem !important;
+    }
+
+    .groups .row .col-lg-4 {
+        justify-content: center;
+        height: unset !important;
+        width: 400px !important;
+        margin: 0 auto;
+    }
+
+    .groups_detail .d-flex>div {
+        width: 90% !important;
+    }
+
+    article {
+        margin: 0 auto;
+    }
+
+    .contact {
+        order: 1;
+        width: 80vw !important;
+    }
+
+    #flush_collapseOne5 {
+        order: -1 !important;
+    }
+
+    .contact-hidden {
+        display: inline-block !important;
+        background-color: unset;
+        border: unset;
+    }
+
+    .register_list table tr td button {
+        width: 80px;
+    }
+
+    table tr th,
+    table tr td {
+        padding: 5.5px !important;
+    }
+
+    .monitor_groups .mx-3 .history-update .monitor_group #modal_monitor {
+        order: 1;
+        margin: 10px;
+    }
+
+    .monitor_groups .mx-3 .history-update {
+        border: none !important;
+    }
+
+    .monitor_groups .mx-3 .history-update {
+        order: 1;
+    }
+
+    .monitor_groups .mx-3 .history-update .monitor_group button,
+    .monitor_groups .mx-3 .history-update .monitor_group a {
+        margin: 10px;
+    }
+
+    #loading-notJoin {
+        margin-top: 33% !important;
+        margin-bottom: 0px !important;
+    }
+}
+
+@media (min-device-width : 769px) and (max-device-width : 1024px) {
+    .navbar>div {
+        width: unset;
+        margin: unset !important;
+        padding: unset;
+
+    }
+
+    .home .container .about {
+        flex-wrap: wrap;
+    }
+
+    .home .about>div {
+        max-width: 300px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .contact {
+        order: 1;
+    }
+
+    #flush_collapseOne5 {
+        order: -1 !important;
+        width: 80vw !important;
+    }
+
+    .contact-hidden {
+        display: inline-block !important;
+        background-color: unset;
+        border: unset;
+    }
+
+    .register_list table tr td button {
+        width: 80px;
+    }
+}

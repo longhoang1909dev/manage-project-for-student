@@ -1,0 +1,33 @@
+@media (min-device-width : 1023px) and (max-device-width : 1200px) {
+    .home .about>div {
+        width: 335px;
+    }
+
+    .footer>div {
+        margin: 0 auto !important;
+    }
+
+    .collapse:not(.show)[id="flush-collapseOne5"] {
+        display: block !important;
+    }
+
+}
+
+@media (min-device-width : 1200px) and (max-device-width : 1440px) {
+    .footer>div {
+        margin: 0 auto !important;
+    }
+
+    .collapse:not(.show)[id="flush-collapseOne5"] {
+        display: block !important;
+    }
+}
+
+@media (min-device-width : 1440px) {
+    .collapse:not(.show)[id="flush-collapseOne5"] {
+        display: block !important;
+    }
+    .login-box{
+        padding: 40px 40px 40px 10px !important;
+    }
+}
